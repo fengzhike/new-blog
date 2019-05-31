@@ -25,7 +25,7 @@ categories: 数据结构和算法
 ## 基本数据结构及衍生结构
 数据结构分类如下如下图(👇)所示
 
-<img src="/img/data-structure.png" alt="">
+<img src="/static/img/data-structure.png" alt="">
 
 ### **集合**：
 * 集合中的数据成员是无序的
@@ -47,21 +47,21 @@ categories: 数据结构和算法
 
 * **栈**：在顺序表基础上衍生的，操作受限的线性表
     * 有两个操作方式：pop、push
-    * pop只能操作***栈顶***元素，push进来的新元素必须处于***栈顶***位置，***栈底***元素不许操作
+    * pop只能操作***栈顶***元素，push进来的新元素必须处于***栈顶***位置，***栈底*** 元素不许操作
     * LIFO(Last In First Out)，后进先出
 
-    <img src="/img/stack.jpeg" width = 300 alt="">
+    <img src="/static/img/stack.jpeg" width = 300 alt="">
 
     * 用途：解决括号匹配查找、浏览器的后退或编辑器的undo功能等
 
 
 * **队列**：同样属于操作受限的线性表
-    * ***队尾***和***队首***均可操作
-    * 必须在***队尾***入队，***队首***出队
+    * ***队尾*** 和 ***队首*** 均可操作
+    * 必须在 ***队尾*** 入队，***队首*** 出队
     * 特殊情况可插队（解决排序vip问题）
     * FIFO(First In First Out)，先入先出
 
-    <img src="/img/queue.jpeg" width = 300 alt="">
+    <img src="/static/img/queue.jpeg" width = 300 alt="">
 
     * 用途：消息队列、视频弹幕；维护打印机任务等
 
@@ -85,7 +85,7 @@ categories: 数据结构和算法
     - 后序遍历（深度优先）
     - 层序遍历（广度优先）
 
-    <img src="/img/tree-each.jpeg" width = 600 alt="">
+    <img src="/static/img/tree-each.jpeg" width = 600 alt="">
 
 * 树的种类
     - 空树：空集合也是树，称空树，没有节点
@@ -96,14 +96,14 @@ categories: 数据结构和算法
 	- 满二叉树：每一层上的节点都是最大节点数
 	- 霍夫曼树：带权路径最短，也叫最有二叉树
 
-    <img src="/img/tree.png" width = 300 alt="">
+    <img src="/static/img/tree.png" width = 300 alt="">
 
-    上图中，C有三个字节点，***度(degree)***为3，H有两个子节点，***度(degree)***为2，叶子节点的***度(degree)*** 为0，此树***深(depth)*** 为4(从根节点0,1,2,3,4)
+    上图中，C有三个字节点，***度(degree)*** 为3，H有两个子节点，***度(degree)*** 为2，叶子节点的 ***度(degree)*** 为0，此树 ***深(depth)*** 为4(从根节点0,1,2,3,4)
 
 ### 图
 图是由***顶点集合*** 与定点间关系(边)所构成的一种数据结构。图分为有向图和无向图。
 
-<img src="/img/maps.jpg" width =400 alt="">
+<img src="/static/img/maps.jpg" width =400 alt="">
 
 上图（a）为无向图，(b)为有向图
 

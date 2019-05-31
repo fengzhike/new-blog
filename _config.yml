@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Shun-Kai
-subtitle: 竹杖芒鞋轻胜马，谁怕，一蓑烟雨任平生
+title: ShunKai
+subtitle: 竹杖芒鞋轻胜马，谁怕，一蓑烟雨任平生！
 description: 技术文档、随笔日志
 keywords:
 author: Shun-Kai
@@ -50,7 +50,7 @@ highlight:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ''
-  per_page: 5
+  per_page: 10
   order_by: -date
 
 archive_generator:

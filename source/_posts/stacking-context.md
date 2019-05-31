@@ -25,7 +25,7 @@ z轴即用户与屏幕间看不见的垂直线。
 ### 1.3 Stacking Order
 w3c官方规定了7层层叠水平,如下图所示
 
-<img src="img/stacking-order.png" alt="">
+<img src="/static/img/stacking-order.png" alt="">
 
 - 形成层叠上下文环境的元素的背景与边框
 - 拥有负 z-index 的子堆叠上下文元素 （负的越高越堆叠层级越低）

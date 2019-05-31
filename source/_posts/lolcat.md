@@ -29,7 +29,7 @@ $ lolcat -h
 - lolcat已安装完毕，下面可以玩起来了
 找一些喜欢的文本写成文件，cat [文件] | lolcat,就可以嗨起来了，写入自己的.bash_profile或者.zshrc中实现打开立即输出
 
-<img src="img/rulai.jpeg" width=500 alt="">
+<img src="/static/img/rulai.jpeg" width=500 alt="">
 ```
 $ ps | lolcat
 $ date | lolcat
