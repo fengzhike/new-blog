@@ -4,6 +4,7 @@ date: 2019.06.03
 tags: [rich-text-editor]
 categories: 常用工具
 ---
+[本文引自转载：https://liuhuiashazj.github.io/2017/11/13/41/](https://liuhuiashazj.github.io/2017/11/13/41/)
 
 # 考察点
 - 开源协议
