@@ -84,7 +84,10 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+#   type: git
+#   repo: git@github.com:fengzhike/fengzhike.github.io.git
+#   branch: master
+#   message: deploy blog
 # Menu
 menu:
   home: /      //主页
