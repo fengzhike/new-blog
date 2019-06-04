@@ -4,6 +4,7 @@ branch='master'
 projectDir='.blog'
 srcDir='public'
 
+hexo g
 
 [[ ! -d "$projectDir" ]] && git clone https://github.com/fengzhike/fengzhike.github.io.git $projectDir
 [ ! -n "$1"] && echo 'need commit components' && exit 1
