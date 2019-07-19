@@ -61,7 +61,7 @@ categories: 数据结构和算法
     * 特殊情况可插队（解决排序vip问题）
     * FIFO(First In First Out)，先入先出
 
-    <img src="/static/img/queue.jpeg" width = 300 alt="">
+    <img src="/static/img/queue.jpg" width = 300 alt="">
 
     * 用途：消息队列、视频弹幕；维护打印机任务等
 
@@ -85,7 +85,7 @@ categories: 数据结构和算法
     - 后序遍历（深度优先）
     - 层序遍历（广度优先）
 
-    <img src="/static/img/each.jpeg" width = 600 alt="">
+    <img src="/static/img/each.jpg" width = 600 alt="">
 
 * 树的种类
     - 空树：空集合也是树，称空树，没有节点
