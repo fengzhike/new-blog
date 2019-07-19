@@ -25,7 +25,7 @@ categories: 数据结构和算法
 ## 基本数据结构及衍生结构
 数据结构分类如下如下图(👇)所示
 
-<img src="/static/img/data-structure.png" alt="">
+<img src="/static/img/structure.png" alt="">
 
 ### **集合**：
 * 集合中的数据成员是无序的
@@ -50,7 +50,7 @@ categories: 数据结构和算法
     * pop只能操作***栈顶***元素，push进来的新元素必须处于***栈顶***位置，***栈底*** 元素不许操作
     * LIFO(Last In First Out)，后进先出
 
-    <img src="/static/img/stack.jpeg" width = 300 alt="">
+    <img src="/static/img/stack1.jpeg" width = 300 alt="">
 
     * 用途：解决括号匹配查找、浏览器的后退或编辑器的undo功能等
 
@@ -85,7 +85,7 @@ categories: 数据结构和算法
     - 后序遍历（深度优先）
     - 层序遍历（广度优先）
 
-    <img src="/static/img/tree-each.jpeg" width = 600 alt="">
+    <img src="/static/img/each.jpeg" width = 600 alt="">
 
 * 树的种类
     - 空树：空集合也是树，称空树，没有节点
