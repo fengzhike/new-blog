@@ -1,7 +1,7 @@
 ---
-title: 常见数据结构
+title: 前端模块化
 date: 2017.11.28
-tags: [前端]
+tags: [前端, 模块化]
 categories: 前端
 ---
 

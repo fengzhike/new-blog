@@ -1,5 +1,5 @@
 ---
-title: 常见数据结构
+title: 常用算法
 date: 2018.3.1
 tags: [算法]
 categories: 数据结构和算法
