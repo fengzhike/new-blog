@@ -6,7 +6,7 @@
 
 
 <html class="theme-next muse use-motion" lang="ch">
-<head><meta name="generator" content="Hexo 3.8.0">
+<head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -259,6 +259,157 @@
           <div id="content" class="content">
             
   <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://www.fanshunkai.com/2019/08/06/mongo/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Shun-Kai">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/static/avatar.jpeg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="ShunKai">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2019/08/06/mongo/" itemprop="url">MongoDB实现自增ID</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-08-06T17:41:09+08:00">
+                2019-08-06
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/数据库/" itemprop="url" rel="index">
+                    <span itemprop="name">数据库</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+      
+      
+      
+        
+          
+          <div class="post-body-text">
+            MongoDB是基于分布式文件存储的数据库，在NoSQL中排名第一，是最流行的NoSQL，有高性能、轻量级、易于扩展的特性，运用范围广。我们知道，mongodb有自己的ObjectId，没有类似于MySQL中的自增能力，当我们需要自增字段时，比如userid，ObjectId过长不方便使用，此时我们需要自定义自增长id。
+本文以egg-mongose为例，以findOneAndUpdate实现自增id；
+Schema设计ids的Schema，用于发号// model/ids.js
+1234567
+          ...
+          </div>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2019/08/06/mongo/#more" rel="contents">
+              Read more &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
     
       
 
@@ -1374,167 +1525,6 @@ O(N^2)
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://www.fanshunkai.com/2018/01/24/data-structure/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Shun-Kai">
-      <meta itemprop="description" content>
-      <meta itemprop="image" content="/static/avatar.jpeg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="ShunKai">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/01/24/data-structure/" itemprop="url">常见数据结构</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-01-24T00:00:00+08:00">
-                2018-01-24
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">In</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/数据结构和算法/" itemprop="url" rel="index">
-                    <span itemprop="name">数据结构和算法</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-      
-      
-      
-        
-          
-          <div class="post-body-text">
-            数据结构简介数据对计算机、互联网来说，是无比重要，优秀的数据结构有利于优化存储和检索。作为互联网从业者，数据是打交道的主要对象。
-数据结构的概念
-广义说法：数据结构 = 数据存储 + 算法
-狭义说法：数据结构 = 数据的存储
-数据结构类似于建筑工程中的建筑图纸，表示了数据元素的排列方式，好的数据结构设计思想在软件开发中的重要性不言而喻。
-程序员的内功心法之一
-有利于有效地管理数据对象
-有利于优化性能问题
-
-
-
-数据的基本概念
-数据: 本文讲的数据是计算机里面存储的数据
-数据对象: 很多数据元素组
-          ...
-          </div>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2018/01/24/data-structure/#more" rel="contents">
-              Read more &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://www.fanshunkai.com/2018/01/24/cmd/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1689,7 +1679,7 @@ O(N^2)
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://www.fanshunkai.com/2018/01/24/NN/">
+    <link itemprop="mainEntityOfPage" href="http://www.fanshunkai.com/2018/01/24/data-structure/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Shun-Kai">
@@ -1708,7 +1698,7 @@ O(N^2)
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2018/01/24/NN/" itemprop="url">神经网络NN入门</a></h1>
+                <a class="post-title-link" href="/2018/01/24/data-structure/" itemprop="url">常见数据结构</a></h1>
         
 
         <div class="post-meta">
@@ -1743,8 +1733,8 @@ O(N^2)
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/AI/" itemprop="url" rel="index">
-                    <span itemprop="name">AI</span>
+                  <a href="/categories/数据结构和算法/" itemprop="url" rel="index">
+                    <span itemprop="name">数据结构和算法</span>
                   </a>
                 </span>
 
@@ -1781,23 +1771,25 @@ O(N^2)
         
           
           <div class="post-body-text">
-            神经网络NN入门(neural network)目标
-了解NN的概念和基本算法算法比较繁杂NN 多层前向神经网络
+            数据结构简介数据对计算机、互联网来说，是无比重要，优秀的数据结构有利于优化存储和检索。作为互联网从业者，数据是打交道的主要对象。
+数据结构的概念
+广义说法：数据结构 = 数据存储 + 算法
+狭义说法：数据结构 = 数据的存储
+数据结构类似于建筑工程中的建筑图纸，表示了数据元素的排列方式，好的数据结构设计思想在软件开发中的重要性不言而喻。
+程序员的内功心法之一
+有利于有效地管理数据对象
+有利于优化性能问题
 
 
-神经网络算法依赖GPU，要求计算机性能
 
-神经网络模拟人的概念输入神经元数量是由特征值决定的，输出神经元数量是由标记分类所决定的
-目标集是有隐藏层训练得来的
-上层的权重w + 本层偏置 △ =本层数值
-NN算法 （BP=Back propagation）后向传播正算一次+倒算一次 为一个周期
-特征值向量标准化mormalize（转化0-1之间的值）
-随机初始化权重和偏置（-1,1
+数据的基本概念
+数据: 本文讲的数据是计算机里面存储的数据
+数据对象: 很多数据元素组
           ...
           </div>
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2018/01/24/NN/#more" rel="contents">
+            <a class="btn" href="/2018/01/24/data-structure/#more" rel="contents">
               Read more &raquo;
             </a>
           </div>
@@ -1883,7 +1875,7 @@ NN算法 （BP=Back propagation）后向传播正算一次+倒算一次 为一�
           
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
-                <span class="site-state-item-count">33</span>
+                <span class="site-state-item-count">34</span>
                 <span class="site-state-item-name">posts</span>
               </a>
             </div>
@@ -1894,7 +1886,7 @@ NN算法 （BP=Back propagation）后向传播正算一次+倒算一次 为一�
             
             <div class="site-state-item site-state-categories">
               <a href="/categories/index.html">
-                <span class="site-state-item-count">9</span>
+                <span class="site-state-item-count">10</span>
                 <span class="site-state-item-name">categories</span>
               </a>
             </div>
@@ -1905,7 +1897,7 @@ NN算法 （BP=Back propagation）后向传播正算一次+倒算一次 为一�
             
             <div class="site-state-item site-state-tags">
               <a href="/tags/index.html">
-                <span class="site-state-item-count">30</span>
+                <span class="site-state-item-count">33</span>
                 <span class="site-state-item-name">tags</span>
               </a>
             </div>
