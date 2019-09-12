@@ -11,20 +11,20 @@ MongoDB是基于分布式文件存储的数据库，在NoSQL中排名第一，�
 
 ## Schema
 设计ids的Schema，用于发号
-// model/ids.js
 
 ```
+// model/ids.js
 module.exports = app => {
     const mongoose = app.mongoose;
     const Schema = mongoose.Schema;
-  
+
     const IdsSchema = new Schema({
         name: { type: String },
         id: { type: Number }
     });
-  
+
     IdsSchema.index({ name: 1 });
-  
+
     return mongoose.model('Ids', IdsSchema);
 };
 ```
@@ -35,7 +35,7 @@ module.exports = app => {
 ```
 /**
 * findOneAndUpdate($1, $2, $3):
-* params: 
+* params:
 * $1: query
 * $2: $inc 自增
 * $3: options: upsert--找不到时创建新的document; new--返回运算后的新值
