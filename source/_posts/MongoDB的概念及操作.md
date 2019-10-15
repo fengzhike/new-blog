@@ -130,10 +130,10 @@ db.col.update( { "count" : { $gt : 10 } } , { $inc : { "count" : 1} },false,fals
 |$gte| 大于等于|逻辑运算|
 |$lt| 小于|逻辑运算|
 |$lte| 小于等于|逻辑运算|
-|$or| 或|```emp.find({ $or: [{sal: { $gte: 2500 }}, { sal: { $lte: 1000 } }] })```|
-|$inc| 自增|```emp.update({ sal: { $lte: 1000 } }, { $inc: { sal: 400 } })```|
-|$set| 修改value/新增{key:value}|```emp.update({ sal: { $lte: 1000 } }, { $inc: { sal: 400 } })```|
-|$set| 修改value/新增{key:value}|增删|
+|$or| 或| emp.find({ $or: [{sal: { $gte: 2500 }}, { sal: { $lte: 1000 } }] }) |
+|$inc| 自增| emp.update({ sal: { $lte: 1000 } }, { $inc: { sal: 400 } }) |
+|$set| 修改value/新增{key:value}|emp.update({ sal: { $lte: 1000 } }, { $inc: { sal: 400 } }) |
+|$set| 修改value/新增{key:value} |增删|
 |$unset| 删除key|增删|
 |$push| 向数组添加一个值|增删|
 |$addToSet| 向数组添加一个不存在的值|增删|
@@ -232,6 +232,9 @@ emp.find({ sal: { $gte: 10000 } }, { ename: 1, _id: 0 }) // 1 允许 0 禁止
 还原导出的csv文件
 > $ mongoimport -h IP --port 端口 -u 用户名 -p 密码 -d 数据库 -c 表名 --type 类型 --headerline --upsert --drop 文件名 
 
+导入json文件
+> $ mongoimport -h IP --port 端口 -u 用户名 -p 密码 -d 数据库 -c 表名 --file data.json 
+
 #### 示例
 还原导出的表数据
 > $ mongoimport -d test -c users --upsert ~/data/test/users.dat
@@ -241,3 +244,4 @@ emp.find({ sal: { $gte: 10000 } }, { ename: 1, _id: 0 }) // 1 允许 0 禁止
 
 还原csv文件
 > $ mongoimport -d test -c users --type csv --headerline --file ~/data/test/users.csv 
+
